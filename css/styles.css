@@ -1,0 +1,46 @@
+.eps-tag-cloud
+.eps-tag-cloud li {
+    margin: 0px;
+}
+
+.eps-tag-cloud li {
+    display: inline-block;
+    padding: 2px;
+    margin: 0px;
+}
+
+.eps-tag-cloud .eps-tag-cloud-item  {
+    padding: 2px 6px;
+    font-size: 12px;
+    background: #eeeeee;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    box-shadow: 1px 1px 0px #f3f3f3;
+    transition: background 300ms;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px white;
+}
+.eps-tag-cloud .eps-tag-cloud-item:hover  {
+    background: white;
+}
+.eps-tag-cloud .eps-tag-cloud-item.active {
+    background: #e6f3ca;
+    border: 1px solid #bacb94;
+}
+.eps-tag-cloud .eps-tag-cloud-item:focus {
+    outline: none;
+}
+.eps-tag-cloud .eps-tag-cloud-item span {
+    font-size: 9px;
+    display: inline-block;
+    width: 16px; height: 16px;
+    line-height: 18px;
+    background: #cccccc;
+    color: #444444;
+    box-shadow: 1px 1px 0px white;
+    border-radius: 32px;
+    margin-right: 6px;
+}
+.eps-tag-cloud .eps-tag-cloud-item.active span {
+    background: #bacb94;
+}
