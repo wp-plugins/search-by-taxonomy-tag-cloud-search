@@ -3,7 +3,7 @@
 class EPS_TagCloud_Plugin extends EPS_Plugin {
 
     protected $config = array(
-        'version' => '1.0.0',
+        'version' => '1.0.1',
         'option_slug' => 'eps_tagcloud',
         'page_slug' => 'eps_tagcloud',
         'page_title' => 'EPS Term Tag Cloud Search',

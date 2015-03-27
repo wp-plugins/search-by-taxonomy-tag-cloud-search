@@ -16,7 +16,7 @@
 Plugin Name: Term/Tag Cloud Search
 Plugin URI: http://www.eggplantstudios.ca
 Description: A Handy widget for filtering posts by tags.
-Version: 1.0.0
+Version: 1.0.1
 Author: Shawn Wernig http://www.eggplantstudios.ca
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

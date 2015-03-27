@@ -4,7 +4,7 @@ Donate link: http://www.eggplantstudios.ca/?post_type=product&p=2947&preview=tru
 Tags: tags, widget, search
 Requires at least: 3.0.1
 Tested up to: 4.1.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,6 +15,7 @@ Creates a widget that will present a "Tag Cloud" of terms, and allow you to pick
 **EPS Term/Tag Cloud Search** Creates a widget that will present a "Tag Cloud" of terms, and allow you to pick one or more terms to search by - Giving you the opportunity to search for all posts that are tagged "Red" and "Blue".
 
 **Features**
+
 * Supports any publicly available post type
 * Supports any publicly available taxonomy
 
@@ -57,10 +58,16 @@ No, sorry. One widget, one search.
 
 == Changelog ==
 
+= 1.0.1 =
+Fixed a bug with older versions of PHP.
+
 = 1.0.0 =
 Release February 2015
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Fixed a bug with older versions of PHP.
 
 = 1.0.0 =
 Release February 2015

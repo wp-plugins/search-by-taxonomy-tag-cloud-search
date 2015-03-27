@@ -146,7 +146,8 @@ class EPS_Plugin_Options {
      *
      */
     function section_callback( $args ) {
-        $tab = ( isset( $_GET['tab'] ) ) ? $_GET['tab'] : array_keys( $this->settings )[0];
+        $setting_keys = array_keys( $this->settings );
+        $tab = ( isset( $_GET['tab'] ) ) ? $_GET['tab'] : $setting_keys[0];
 		echo $this->settings[$tab]['description'];
 	}
 
